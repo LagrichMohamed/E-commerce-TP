@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 function Header({ cartItemsCount }) {
   return (
     <header style={styles.header}>
-      <Link to="/" style={styles.link}>
+      <Link to="/E-commerce-TP/" style={styles.link}>
         <h1 style={styles.title}>
           <i className="fas fa-laptop" style={styles.icon}></i>
           TechShop
         </h1>
       </Link>
-      <Link to="/cart" style={styles.cartLink}>
+      <Link to="/E-commerce-TP/cart" style={styles.cartLink}>
         <div className="cart-icon">
           <i className="fas fa-shopping-cart"></i>
           <span className="cart-count">{cartItemsCount}</span>

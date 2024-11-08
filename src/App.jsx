@@ -27,8 +27,8 @@ function App() {
       <div className="App">
         <Header cartItemsCount={cartItems.reduce((total, item) => total + item.quantity, 0)} />
         <Routes>
-          <Route path="/" element={<ProductList addToCart={addToCart} />} />
-          <Route path="/cart" element={<Cart cartItems={cartItems} setCartItems={setCartItems} />} />
+          <Route path="/E-commerce-TP/" element={<ProductList addToCart={addToCart} />} />
+          <Route path="/E-commerce-TP/cart" element={<Cart cartItems={cartItems} setCartItems={setCartItems} />} />
         </Routes>
       </div>
     </Router>
